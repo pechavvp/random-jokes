@@ -1,0 +1,112 @@
+body {
+    background-color: #f6ffff;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    height: calc(100vh - 80px);
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.main-block-wrap {
+    width: 680px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    border-radius: 50%;
+    background-color: rgba(26, 121, 167, .25);
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(26 121 167);
+    color: white;
+    cursor: pointer;
+}
+
+.quote {
+    min-height: 130px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.language {
+    display: inline;
+    text-align: center;
+    font-size: 16px;
+}
+
+.language-item {
+    cursor: pointer;
+}
+
+.language-active {
+    font-weight: 700;
+    cursor: default;
+}
+
+.footer-block {
+    padding: 0 50px;
+    height: 80px;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.footer-copyright {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+.footer-copyright-item {
+    list-style: none;
+    font-size: 20px;
+}
+
+.footer-copyright-item-link {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer-copyright-item-link:hover {
+    color: rgb(26 121 167);
+}
+
+.footer-school-link > img {
+    height: 50px;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.footer-school-link > img:hover {
+    filter: invert(66%) sepia(89%) saturate(442%) hue-rotate(154deg) brightness(100%) contrast(95%);
+}
